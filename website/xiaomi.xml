@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobile>
+
+  <mi>
+    <manufacturer>Xiaomi</manufacturer>
+    <model>Xiaomi Mi A2</model>
+    <os>Android 8.0</os>
+    <price>Rs.16000/-</price>
+    <mname>Manufacturer:</mname>
+    <moname>Model:</moname>
+    <osname>OS:</osname>
+    <netprice>Price:</netprice>
+  </mi>
+
+</mobile>

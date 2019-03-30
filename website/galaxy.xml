@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobile>
+
+  <galaxy>
+    <manufacturer>Samsung</manufacturer>
+    <model>Galaxy 9</model>
+    <os>Android 7.0</os>
+    <price>Rs.38000/-</price>
+    <mname>Manufacturer:</mname>
+    <moname>Model:</moname>
+    <osname>OS:</osname>
+    <netprice>Price:</netprice>
+  </galaxy>
+
+</mobile>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mobile>
+
+  <iphone>
+    <manufacturer>Apple</manufacturer>
+    <model>Iphone 6</model>
+    <os>IOS 10</os>
+    <price>Rs.42000/-</price>
+    <mname>Manufacturer:</mname>
+    <moname>Model:</moname>
+    <osname>OS:</osname>
+    <netprice>Price:</netprice>
+  </iphone>
+
+</mobile>

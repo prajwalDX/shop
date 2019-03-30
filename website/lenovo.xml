@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laptop>
+
+  <lenovo>
+    <manufacturer>LENOVO</manufacturer>
+    <model>E480</model>
+    <os>Windows 10home</os>
+    <price>Rs.33000/-</price>
+    <mname>Manufacturer:</mname>
+    <moname>Model:</moname>
+    <osname>OS:</osname>
+    <netprice>Price:</netprice>
+  </lenovo>
+
+</laptop>

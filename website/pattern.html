@@ -1,0 +1,110 @@
+
+<html>
+<head>
+<title>login validation</title>
+ <style type="text/css"> 
+   
+form
+     {
+         text-align: center;
+     }
+table{
+         margin-top:250px
+     }
+body
+     {
+        background-color:#6ca4e4;	
+     }
+ </style>
+</head>
+
+<body>
+<form action="login.html" > 
+<table align="center" cellpadding="10px" >
+    <tr>
+        <td><b>
+             Username 
+             </b>
+        </td>
+        <td>
+            <input type="textbox" id="uname"/>
+        </td>
+    </tr>
+    <tr>
+        <td><b>
+                        Password</b> 
+        </td>
+        <td>
+             <input type="password" id="pwd"/>
+        </td>
+    </tr>
+      <tr>
+        <td><b>
+            Email
+        </b>
+        </td>
+        <td>
+             <input type="textbox" id="email"/>
+        </td>
+    </tr>
+       <tr>
+        <td><b>
+           Phone Number
+        </b>
+        </td>
+        <td>
+             <input type="textbox" id="phnumber"/>
+        </td>
+    </tr>
+         <tr>
+        <td><b>
+                Address
+        </b>
+          
+        </td>
+        <td>
+             <input type="textbox" id="address"/>
+        </td>
+    </tr>
+    
+    </table>
+    <br/>
+<input type="button" onclick="fun()" value="SUBMIT"/>
+<a href = "login.html"><button type = "button" >LOGIN</button>
+</form>
+
+<p id="res"></p>
+
+<script type="text/javascript">
+
+function fun()
+{
+	var upat=/^(?=.*[a-z])[A-Za-z]{3,10}$/;
+	var ppat=/^(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{3,10}/;
+	var epat=/\S+@\S+\.\S+/;
+    var npat=/^[0-9]{10}$/;
+    
+	var name=document.getElementById("uname").value;
+	var p=document.getElementById("pwd").value;
+	var e=document.getElementById("email").value;
+    var pn=document.getElementById("phnumber").value;
+
+
+	if(name.match(upat)!=null)
+		if(p.match(ppat)!=null)
+			if(e.match(epat)!=null)
+                if(pn.match(npat)!=null)
+				    document.getElementById("res").innerHTML="registered successfully";
+                else
+                    document.getElementById("res").innerHTML="phonenumber rule violated";
+			else
+				document.getElementById("res").innerHTML="email rule violated";
+		else
+			document.getElementById("res").innerHTML="password rule violated";
+	else
+		document.getElementById("res").innerHTML="Uname rule violated";
+}
+
+</script>
+</body>
+</html>

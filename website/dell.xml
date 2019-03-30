@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<laptop>
+
+  <dell>
+    <manufacturer>DELL</manufacturer>
+    <model>17 7567</model>
+    <os>Windows 10pro</os>
+    <price>Rs.91000/-</price>
+    <mname>Manufacturer:</mname>
+    <moname>Model:</moname>
+    <osname>OS:</osname>
+    <netprice>Price:</netprice>
+  </dell>
+
+</laptop>
